@@ -1,0 +1,13 @@
+{
+  "name": "LdifGraph",
+  "outputfilename": "LdifGraph",
+  "frontend:install": "",
+  "frontend:build": "",
+  "author": {
+    "name": "wat4r",
+    "email": "wat4r@outlook.com"
+  },
+  "info": {
+    "Copyright": "Copyright © 2023"
+  }
+}

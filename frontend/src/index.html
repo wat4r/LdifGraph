@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+
+    <link rel="stylesheet" href="assets/css/mdui.min.css" />
+    <script type="text/javascript" src="assets/js/mdui.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script type="text/javascript" src="assets/js/echarts.min.js"></script>
+</head>
+
+<body
+    class="app mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-indigo mdui-theme-layout-auto">
+    <header>
+
+        <div class="item">
+            <span>Type: </span>
+            <select class="mdui-select" id="type-select" mdui-select>
+                <option value="group">Group</option>
+                <option value="user">User</option>
+            </select>
+        </div>
+
+        <div class="item value-select-item">
+            <span>Value: </span>
+            <select class="mdui-select" id="value-select">
+            </select>
+        </div>
+
+        <div class="item">
+            <button class="mdui-btn mdui-btn-raised" id="rendering"><i class="mdui-icon material-icons">&#xe3ea;</i>Rendering</button>
+        </div>
+
+        <div class="mdui-dialog" id="dialog">
+            <div class="mdui-dialog-title">Select Group</div>
+            
+            <div class="mdui-dialog-content">
+                <select class="mdui-select" mdui-select>
+                    <option value="1">State 1</option>
+                    <option value="2">State 2</option>
+                    <option value="3">State 3</option>
+                    <option value="4">State 4</option>
+                    <option value="5">State 5</option>
+                    <option value="6">State 6</option>
+                </select>
+            </div>
+
+            <div class="mdui-dialog-actions">
+                <button class="mdui-btn mdui-ripple">cancel</button>
+                <button class="mdui-btn mdui-ripple">erase</button>
+            </div>
+        </div>
+    </header>
+    <main id="container"></main>
+    <footer>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    height: 100%;
+    flex-grow: 1;
+}
+
+header {
+    display: flex;
+    padding: 6px 10px;
+
+}
+
+header .item {
+    margin-right: 30px;
+}
+
+.mdui-btn, .mdui-fab {
+    text-transform: capitalize;
+}
+
+.mdui-snackbar-text {
+    color: red;
+}
+
+.value-select-item {
+    display: inline-block;
+}
+
+.value-select-item .mdui-select-position-auto {
+    max-width: 500px;
+}
